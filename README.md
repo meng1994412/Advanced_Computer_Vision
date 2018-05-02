@@ -4,4 +4,15 @@ Nowadays, many closedcircuit television cameras are applied in the public places
 
 In this project, a program is developed which can detect a person and his/her face in a given video and then recognize him/her by using features in the pre-trained model of that person. If the person is detected in the video for the first time, a label number will be assigned to that person. And that person can be tracked and recognized in any other given videos.
 
-##
+## Objectives
+* develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
+
+## Requirements
+* Python3 (3.6)
+* OpenCV  (3.3)
+* Python libraries:
+  - Numpy
+  - Imutils
+  - Python Image Library (PIL)
+  
+
