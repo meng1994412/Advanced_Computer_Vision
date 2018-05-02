@@ -37,3 +37,10 @@ In this project, a program is developed which can detect a person and his/her fa
   2. `data/`: This [directory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/data) contains some data samples (not all) extracted from `extractFace.py`.
   3. `haar_cascade/`: This [directiory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/haar_cascades) contains the pre-trained classifiers for frontal face detection used in `main.py`, `extractFace.py`, and `createFaceModel.py`, which is obtained from [here](https://github.com/opencv/opencv/tree/master/data/haarcascades)
   4. `videos/`: This [directory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/video) contains videos for testing.
+  
+ ## Proceeding code
+ * To run the python code you have to put all the data images or input videos in one folder and then provide the path of that folder as command line argument. For example:
+ ```python3 createFaceModel.py -i data```
+ This command line will run python file `createFaceModel.py` and take images from folder named data to create feature model.
+ ```python3 main.py -v videos```
+ This command line will run python file `main.py` and take videos from folder named video to create output.
