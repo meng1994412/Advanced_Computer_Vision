@@ -48,3 +48,7 @@ In this project, a program is developed which can detect a person and his/her fa
  python3 main.py -v videos
  ```
  This command line will run python file `main.py` and take videos from folder named video to create output.
+
+## Results
+Person #1 showns up in the video for the first time:
+![demo1](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/blob/master/results/demo1.gif)
