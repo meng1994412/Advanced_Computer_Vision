@@ -1,5 +1,5 @@
-# Human (Face) Detection and Recognition
-## Project Objectives
+## Human (Face) Detection and Recognition
+### Project Objectives
 
 
 ##
