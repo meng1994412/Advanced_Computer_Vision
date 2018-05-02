@@ -31,9 +31,9 @@ In this project, a program is developed which can detect a person and his/her fa
   5. If the face is recognized, it will put a label above the face. Otherwise it repeats the step 2 to next frame.
 * The instruction of the repo
   1. `code/`: This directory contains [code](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/code):
-    - `main.py`: This is the main python file that detects and recognizes human.
-    - `extractFace.py`: This is data extraction file that takes 600 frontal face photos of each subject.
-    - `createFaceModel.py`: This is model creation file that create a LBPH feature model based on the photos extracted from `extractFace.py`.
+      - `main.py`: This is the main python file that detects and recognizes human.
+      - `extractFace.py`: This is data extraction file that takes 600 frontal face photos of each subject.
+      - `createFaceModel.py`: This is model creation file that create a LBPH feature model based on the photos extracted from `extractFace.py`.
   2. `data/`: This [directory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/data) contains some data samples (not all) extracted from `extractFace.py`.
   3. `haar_cascade/`: This [directiory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/haar_cascades) contains the pre-trained classifiers for frontal face detection used in `main.py`, `extractFace.py`, and `createFaceModel.py`, which is obtained from [here](https://github.com/opencv/opencv/tree/master/data/haarcascades)
   4. `videos/`: This [directory](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/video) contains videos for testing.
