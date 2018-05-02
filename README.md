@@ -4,6 +4,8 @@ Nowadays, many closedcircuit television cameras are applied in the public places
 
 In this project, a program is developed which can detect a person and his/her face in a given video and then recognize him/her by using features in the pre-trained model of that person. If the person is detected in the video for the first time, a label number will be assigned to that person. And that person can be tracked and recognized in any other given videos.
 
+Here are the demos: [demo](#results)
+
 ## Objectives
 * develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
 
@@ -50,5 +52,14 @@ In this project, a program is developed which can detect a person and his/her fa
  This command line will run python file `main.py` and take videos from folder named video to create output.
 
 ## Results
-Person #1 showns up in the video for the first time:
+Person #1 shows up in the video for the first time:
+
 ![demo1](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/blob/master/results/demo1.gif)
+
+Person #2 shows up in the video for the first time:
+
+![demo2](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/blob/master/results/demo2.gif)
+
+Person #1 and Person #2 together shows up in the video for the second time:
+
+![demo3](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/blob/master/results/demo3.gif)
