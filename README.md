@@ -7,14 +7,14 @@ In this project, a program is developed which can detect a person and his/her fa
 Here are the demos: [demo](#results)
 
 ## Objectives
-* develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
+* Develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
 
 ## Requirements
 * Python3 (3.6)
-* OpenCV  (3.3)
+* OpenCV  ([3.3](https://docs.opencv.org/3.3.0/))
 * Python libraries:
-  - Numpy
-  - Imutils
+  - [Numpy](https://docs.scipy.org/doc/numpy-1.14.0/reference/)
+  - [Imutils](https://github.com/jrosebr1/imutils)
   - Python Image Library (PIL)
   
 ## Algorithms & Methods Involved
