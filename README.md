@@ -1,1 +1,5 @@
-# Human_Face_Detection_and_Recognition
+# Human (Face) Detection and Recognition
+## Project Objectives
+
+
+##
