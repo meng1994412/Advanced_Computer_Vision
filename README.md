@@ -6,6 +6,8 @@ In this project, a program is developed which can detect a person and his/her fa
 
 Here are the demos: [demo](#results)
 
+Here are the reports for the project: [report](https://github.com/meng1994412/Advanced_Computer_Vision/blob/master/results/EECS%20432%20Final%20Project%20Report.pdf)
+
 ## Objectives
 * Develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
 
