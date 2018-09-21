@@ -10,6 +10,11 @@ Here are the reports for the project: [report](https://github.com/meng1994412/Ad
 
 ## Objectives
 * Develop a program that can detect a person and his/her face in a given video, and then recognize him/her by using features in the pre-trained model of that person.
+* Used Haar features of frontal face to detect subject face and turned on the webcam to capture the sample images of the subject.
+* Extracted face in the sample images and implemented LBP to construct the pre-trained model of each subject.
+* Implemented HOG with pre-trained SVM to detect each subject and used LBP feature model to recognize the subject.
+* The subject will be labeled uniquely if he/she is recognized.
+
 
 ## Requirements
 * Python3 (3.6)
@@ -33,6 +38,10 @@ Here are the reports for the project: [report](https://github.com/meng1994412/Ad
   3. Then it tries to detect human face.
   4. If the face is detected, it will try to recognize it based on features in pre-trained models.
   5. If the face is recognized, it will put a label above the face. Otherwise it repeats the step 2 to next frame.
+* The detailed data flow chart is shown below:
+
+<img src="https://github.com/meng1994412/Advanced_Computer_Vision/blob/master/results/data_flow.png" width="500">
+
 * The instruction of the repo
   1. `code/`: This directory contains [code](https://github.com/meng1994412/EECS432_Advanced_Computer_Vision/tree/master/code):
      - `main.py`: This is the main python file that detects and recognizes human.
